@@ -1,47 +1,164 @@
-html, body{
-    padding: 0px;
-    margin: 0px;
-    background-color: #080000;
+*{
+     margin: 0px;
+     padding: 0px;
+}
+body,html {
+    height: 100%;
+}
+
+#elementoPrincipal {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#curriculo {
+    width: 87%;
+    height: 89%;
+    background-color: #1A1B1D;
+    display: flex;
+}
+#navbar {
+ width: 8%;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+}
+#menuItem{
+    width: 100%;
+    background-color: #55B983;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+#navegacao{
+    width: 100%;
+    background-color: #1A1B1D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+.navIcon{
+    width: 100%;
+    background-color: #1A1B1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+.navIcon:hover {
+   background-color: #2e2e30;
+}
+
+.navImg{
+    width: 25px;
+}
+
+#baixar{
+    width: 100%;
+    background-color: #1A1B1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+#menuIcone{
+    width: 25px;
+    height:25px;
+}
+#imgprofile{
+   display: flex;
+   flex: 0.5;
+   background-image: url(../images/profile.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   height: 108%;
+   margin-top: -3%;
+box-shadow: 0px 0px 12px black;
+}
+#about{
+    flex:0.6;
+}
+#efeito{
+    background: #1c1c1c00;
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+#nome{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px black;
+    font-family: arial;
+}
+#profisao{
+    color: #0fc064;
+    font-size: 19px;
+    font-family: roboto;
+    margin-bottom: 8px;
+}
+#icones-img{
+    display: flex;
+    width: 43%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imgprofileicons{
+    width: 20px;
+    height: 20px;
+
+
+}
+
+#about{
     color: #fafafa;
-}
-
-.dv-body{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container{
-    width: 40%;
-    height: 75%;
-    /* box-shadow: 0px 0px 5px 0px #cecece; */
-    display: flex;
-    justify-content: space-between;
-    background-color: #1D1E20;
-}
-
-.dv-left{
-    width: 8%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    border: solid 1px red;
+}
+.about-me{
+    margin: 20px;
 }
 
-.dv-left-menu{
-    width: 100%;
-    height: 8%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #47D48B;
+.about-me h1{
+    padding: 10px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.dv-left-menu img{
-    max-width: 20px;
-    max-height: 15px;
-}
+.about-me .pe {
+    font-weight: bold;
+    color: #0fc064;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+.about-me .pe b{
+    font-weight: bold;
+    color: #fafafa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+.about-me p:last-child{
+    font-weight: bold;
+    color: #fafafa;
+    padding: 15px;
+    border-bottom: solid 1px #cecece79;
+
+  }
+
+
+
