@@ -6,8 +6,19 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #373543;
   color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  background-color: #2a2a3b;
+}
+
+#containerPrincipal{  
+  width: 50vw;
+  height: 100vh;
 }
 
 .header {
@@ -15,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  /* background-color: #2a2a3b; */
+  border-radius: 10px 10px 0 0;
 }
 
 .logo {
@@ -34,13 +45,8 @@ body {
   color: #ccc;
 }
 
-.main {
-  /* padding: 40px; */
-}
-
 .intro {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
@@ -80,9 +86,6 @@ body {
   border-radius: 50%;
 }
 
-.services{
-  background-color: #1f1f2e;
-}
 
 @media (max-width: 768px) {
   .intro {
